@@ -17,6 +17,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@linaria/server": "4.0.0",
     "@linaria/webpack-loader": "4.1.4",
     "@types/node": "18.8.3",
     "@types/react": "18.0.21",
