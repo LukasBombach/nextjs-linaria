@@ -7,6 +7,7 @@ css`
   :global() {
     body {
       background: black;
+      font-family: sans-serif;
     }
   }
 `;
