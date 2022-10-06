@@ -15,21 +15,22 @@ const uppercase = css`
   text-transform: uppercase;
 `;
 
+const Title = styled.h1`
+  font-size: 2rem;
+`;
+
 const Container = styled.div<{ color: string }>`
-  font-size: 16px;
-  color: ${props => props.color};
   border: 1px solid ${props => props.color};
 
-  &:hover {
-    border-color: blue;
-    color: blue;
+  ${Title} {
+    color: ${props => props.color};
   }
 `;
 
 const Home: NextPage = () => {
   return (
     <Container color="red">
-      <h1 className={uppercase}>hello world</h1>
+      <Title className={uppercase}>hello world</Title>
     </Container>
   );
 };
